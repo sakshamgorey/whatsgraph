@@ -58,7 +58,7 @@ def chart_display(data_frame):
     st.header("Which is the Most Active Hour?⌚")
     st.pyplot(most_suitable_hour(data_frame))
 
-    st.header("Curious about Emoji's ?")
+    st.header("Whats the most used Emoji's?")
     pie_display = pie_display_emojis(data_frame)
     st.plotly_chart(pie_display)
 
@@ -111,14 +111,14 @@ def file_process(data, config):
     st.header("Whatsgraph💬 V1.0 log")
     st.text(''' 
     version 1 of Whatsgraph contains basic graphing functions
-    In version 2 we would like to do sentiment,toxicty analysis
+    In version 2 we would like to do sentiment,toxic9ty analysis
     and improve on the graphing capabilities 
     ''')
     st.text(''' 
     Project for Data Science
     built by
     Saksham Gorey - 19124043
-    Shreesh - 19124051
+    Shreesh Bhardwaj - 19124051
     Bansi Parekhiya- 19124071
     ''')
 
