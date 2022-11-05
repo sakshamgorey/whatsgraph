@@ -108,18 +108,18 @@ def file_process(data, config):
         
     st.header("Who is the top Media Contributor?")
     st.pyplot(top_media_contributor(raw_df))
-    st.header("Whatsgraph💬 V1.0 log")
+    st.header("Whatsgraph💬 V2.0 log")
     st.text(''' 
-    version 1 of Whatsgraph contains basic graphing functions
-    In version 2 we would like to do sentiment,toxic9ty analysis
+    version 2 of Whatsgraph contains basic graphing functions
+    In version 3 we would like to do sentiment,toxic9ty analysis
     and improve on the graphing capabilities 
     ''')
     st.text(''' 
-    Project for Data Science
+    Major Project
     built by
     Saksham Gorey - 19124043
     Shreesh Bhardwaj - 19124051
-    Bansi Parekhiya- 19124071
+    
     ''')
 
 def main():
