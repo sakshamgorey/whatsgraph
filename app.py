@@ -108,10 +108,10 @@ def file_process(data, config):
         
     st.header("Who is the top Media Contributor?")
     st.pyplot(top_media_contributor(raw_df))
-    st.header("Whatsgraph💬 V2.0 log")
+    st.header("Whatsgraph💬 V3.0 log")
     st.text(''' 
-    version 2 of Whatsgraph contains basic graphing functions
-    In version 3 we would like to do sentiment,toxic9ty analysis
+    version 3 of Whatsgraph contains basic graphing functions
+    In version 2 we would like to do sentiment,toxic9ty analysis
     and improve on the graphing capabilities 
     ''')
     st.text(''' 
